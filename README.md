@@ -1,6 +1,6 @@
 # trello-like-app
 
-### A simple web app to make multiple lists and cards within them. Written in jquery.
+### A simple web app to make multiple lists and cards within them. Written in jquery. Using localstorage of your browser to save the data.
 
 
 ## How to run
