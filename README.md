@@ -12,4 +12,4 @@
 
 
 ### Known Issues
-Unexpected behaviour if you use same name for lists or same name for username in cards. (As using these parameters to uniquely identify)
+Unexpected behaviour if you use same/blank name for lists or same name for username in cards. (As using these parameters to uniquely identify)
