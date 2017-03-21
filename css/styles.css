@@ -1,0 +1,32 @@
+body{
+	background: #efefef;
+}
+
+i:hover{
+	cursor: pointer;
+}
+
+.container button{
+	margin-top: 3%;
+}
+
+#lists{
+	margin-top: 5%;
+}
+
+#lists .list{
+	background: #fff;
+	padding: 2.5%;
+	border: #efefef 10px solid;
+}
+
+.cards:hover{
+	cursor: crosshair;
+}
+
+#lists .list .cards{
+	background: #efefef;
+	padding: 2.5%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}

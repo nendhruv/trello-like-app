@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://use.fontawesome.com/584e2c53ae.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<title>Trello Like App</title>
+</head>
+<body>
+
+<div class="container">
+	<div class="">
+		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#listModal">
+		  Add new List
+		</button>
+
+
+		<div class="row list-container" id="lists">
+			
+		</div>
+
+	</div>
+</div>
+
+
+<div class="modal fade" id="listModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">List</h4>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="list-name" id="listName" placeholder="List Name" class="form-control">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="listNameBtn">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="cardModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Card</h4>
+      </div>
+      <div class="modal-body">
+        <input type="text" name="list-name" id="username" placeholder="username of member" class="form-control">
+        <input type="text" name="list-name" id="status" placeholder="status of task" class="form-control">
+        <textarea class="form-control" cols="10" rows="5" id="description"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="cardBtn">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
