@@ -6,7 +6,7 @@
 ## How to run
 1) Clone this repository
 2) cd trello-like-app
-3) run "python -m SimpleHTTPServer" (assuming python is already installed)
+3) run "python -m SimpleHTTPServer" (assuming python is already installed) 
 4) open http://localhost:8000 in your browser
 
 
